@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body { /*Benefícios e Vantagens ()*/
+  background: #fff;
+  color: #333;
+}
+
+header { /*Barra superior ()*/
+  background: #982417;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav a { /*Páginas Ben/Dep/Franq () */
+  color: #ffffff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
+  color: #FF9C2D;
+}
+
+.hero { /*Imagen Background xicara()*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../Img/xc2.jpg') no-repeat center/cover;
+  height: 500px;
+  position: center;
+}
+
+.hero-text { /*Texto Seja nosso Franqueado ()*/
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #333; 
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.hero-text h1 { /*Texto Seja nosso Franqueado ()*/
+  margin-bottom: 10px;
+ 
+}
+
+.hero-text p { /*Texto Uma das redes q mais crece ()*/
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn { /*Texto e Botton (Saber mais/Registrar Interesse)*/
+  background: #FF9C2D;
+  color: #333;
+  padding: 10px 20px;
+  border: #f37703f1;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover { /*Botton( Qd clicar muda de cor)*/
+  background: #f37703f1;
+}
+
+section { /*Depoimento fundo preto()*/
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.benefits { /*Beneficios e Vantagens fundo beige()*/
+  background: #FFE5B4;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.benefit-box { /*Beneficios e Vantagens fundo branco()*/
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.depoimento { /*Depoimento fundo preto()*/
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.depoimento img { /*Imagem moça()*/
+  width: 200px;
+  border-radius: 10px;
+}
+
+.depoimento-text {
+  max-width: 600px;
+  color: #fff;
+}
+
+.modelos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modelo {
+  flex: 1;
+  min-width: 250px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #982417;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+}
