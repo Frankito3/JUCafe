@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+
 *{
   margin: 0;
-  padding: 0;
+  padding: 0 1px;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  gap: 20px;
+}
+.titulo{
+  font-family: Just Me Again Down Here, sans-serif;
+
+}
+.fa-solid fa-mug-saucer{
+  padding: auto;
+  position: relative;
+  left: 10px;
 }
 
 body { /*Benefícios e Vantagens ()*/
@@ -36,6 +49,7 @@ nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
   background: url('../Img/xc2.jpg') no-repeat center/cover;
   height: 500px;
   position: center;
+  
 }
 
 .hero-text { /*Texto Seja nosso Franqueado ()*/
@@ -46,6 +60,8 @@ nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
   color: #333; 
   margin-bottom: 100px;
   font-size: 20px;
+  position: relative;
+  left: 430px;
 }
 
 .hero-text h1 { /*Texto Seja nosso Franqueado ()*/
