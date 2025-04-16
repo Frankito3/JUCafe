@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 
 
 *{
@@ -14,7 +16,7 @@
 }
 .fa-solid fa-mug-saucer{
   padding: auto;
-  position: relative;
+  position: center;
   left: 10px;
 }
 
@@ -24,10 +26,16 @@ body { /*Benefícios e Vantagens ()*/
 }
 
 header { /*Barra superior ()*/
+  display: flex;
   background: #982417;
   padding: 20px;
   text-align: center;
   color: #ffffff;
+}
+.logo{
+  align-items: center;
+  position: relative;
+  gap: 10px;
 }
 
 nav a { /*Páginas Ben/Dep/Franq () */
@@ -36,6 +44,8 @@ nav a { /*Páginas Ben/Dep/Franq () */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
+  font-family: Just Me Again Down Here, sans-serif;
+  font-size: 24px;
 }
 
 nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
@@ -62,6 +72,7 @@ nav a:hover { /*Páginas Ben/Dep/Franq ( Qd clicar muda de cor) */
   font-size: 20px;
   position: relative;
   left: 430px;
+  font-family: Lekton sans-serif;
 }
 
 .hero-text h1 { /*Texto Seja nosso Franqueado ()*/
